@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/jquery-3.2.1.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+<audio class="audio"></audio>
+
+<div class="main-wrap">
+    <div class="hang-logo">
+        <img src="assets/images/game-logo.jpg" alt="hangman">
+    </div>
+    <div class="hang-wrap">
+        <div class="hang-title">Welcome to Hangman</div>
+        <div class="hang-img-wrap">
+            <img src="assets/images/game-logo.jpg">
+            <p class="right-word">The correct word was: <br> <span></span></p>
+        </div>
+        <div class="hang-info">
+            <div class="info-block">
+                <p>Press any key to get started!</p>
+                <p>Wins</p>
+                <p class="wins">0</p>
+            </div>
+            <div class="info-block">
+                <p>Current Word</p>
+                <div class="letters">&nbsp; </div>
+            </div>
+            <div class="info-block">
+                <p>Number of Guesses Remaining</p>
+                <p class="guesses-counter">12</p>
+            </div>
+            <div class="info-block">
+                <p>Letters Already Guessed</p>
+                <div class="wrong-let"></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+</body>
+</html>
